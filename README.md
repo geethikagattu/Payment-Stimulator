@@ -55,13 +55,10 @@ frontend/
    cd backend
 
 
-Install dependencies:
+## Install dependencies:
 
 npm install
-
-
 Create a .env file with your database credentials:
-
 PORT=5000
 DB_HOST=localhost
 DB_USER=root
@@ -69,42 +66,29 @@ DB_PASSWORD=yourpassword
 DB_NAME=payment_gateway_db
 
 
-##Start the backend server:
-
+## Start the backend server:
 npm run dev
 
-##Frontend
-
+## Frontend
 Navigate to the frontend folder:
-
 cd frontend
 
 
-##Install dependencies:
-
+## Install dependencies:
 npm install
 
 
 ##Start the frontend:
-
 npm start
 
-##Usage
-
+## Usage
 Register a new user or login.
-
 Browse available products (flowers and paints).
-
 Make a purchase and check your transaction history.
-
 Suspicious transactions are flagged automatically based on fraud scoring.
 
-##Future Improvements
-
+## Future Improvements
 Advanced fraud detection using machine learning.
-
 Payment gateway integration (Stripe/PayPal).
-
 Admin panel for product management and analytics.
-
 Mobile-friendly responsive design.
